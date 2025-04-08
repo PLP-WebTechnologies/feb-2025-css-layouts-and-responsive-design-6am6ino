@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design</title>
+    <!-- Link to Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section with Flexbox Navigation -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">WebDesign</div>
+            <nav class="main-nav">
+                <button class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Modern Web Design Solutions</h1>
+            <p>Create responsive, beautiful websites using the latest CSS techniques including Flexbox and Grid layouts.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section with CSS Grid -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="features-title">Our Services</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-laptop-code fa-2x" style="color: #3498db; margin-bottom: 15px;"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom web development using the latest technologies and frameworks to create modern, responsive websites.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt fa-2x" style="color: #3498db; margin-bottom: 15px;"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Creating websites that look great on all devices from desktops to smartphones using CSS Grid and Flexbox.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-search fa-2x" style="color: #3498db; margin-bottom: 15px;"></i>
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your website's visibility in search engines with our comprehensive SEO services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section with Flexbox -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="/api/placeholder/600/400" alt="About Us">
+            </div>
+            <div class="about-content">
+                <h2>About Our Company</h2>
+                <p>We are a team of passionate web developers dedicated to creating beautiful, functional websites that help businesses grow online.</p>
+                <p>With expertise in the latest CSS technologies like Flexbox and Grid, we build responsive layouts that provide the best experience for users on any device.</p>
+                <p>Our approach focuses on clean code, modern design principles, and user-friendly interfaces that convert visitors into customers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section with CSS Grid -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="/api/placeholder/300/300" alt="Project 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/300/300" alt="Project 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/300/300" alt="Project 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/300/300" alt="Project 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/300/300" alt="Project 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/300/300" alt="Project 6">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/300/300" alt="Project 7">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/300/300" alt="Project 8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with CSS Grid and Flexbox -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-grid">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="contact-submit">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt fa-lg"></i> 123 Web Street, Design City, 12345</p>
+                    <p><i class="fas fa-phone fa-lg"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope fa-lg"></i> info@webdesign.com</p>
+                    <p><i class="fas fa-clock fa-lg"></i> Mon-Fri: 9am - 5pm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Flexbox -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>WebDesign</h3>
+                    <p>Creating beautiful, responsive websites using modern CSS techniques.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div style="font-size: 1.5rem;">
+                        <a href="#" style="margin-right: 15px;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" style="margin-right: 15px;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" style="margin-right: 15px;"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 WebDesign. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('nav-list').classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on nav links
+        const navLinks = document.querySelectorAll('.nav-list a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('nav-list').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
